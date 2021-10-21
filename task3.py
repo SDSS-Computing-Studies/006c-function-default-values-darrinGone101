@@ -14,3 +14,7 @@ assert title() == "=========\n= Title =\n========="
 (2 points)
 
 """
+def title ( a ="="):
+    return f"{a}"*9+"\n""+" f"  {a} + title " + f"{a}"*9
+    
+    
